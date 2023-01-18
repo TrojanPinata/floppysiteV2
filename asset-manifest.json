@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/floppycontainer/static/css/main.31d6cfe0.css",
-    "main.js": "/floppycontainer/static/js/main.0a56f9ae.js",
-    "index.html": "/floppycontainer/index.html",
-    "main.0a56f9ae.js.map": "/floppycontainer/static/js/main.0a56f9ae.js.map"
+    "main.css": "/floppysitev2/static/css/main.31d6cfe0.css",
+    "main.js": "/floppysitev2/static/js/main.a588bc82.js",
+    "index.html": "/floppysitev2/index.html",
+    "main.a588bc82.js.map": "/floppysitev2/static/js/main.a588bc82.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.0a56f9ae.js"
+    "static/js/main.a588bc82.js"
   ]
 }
