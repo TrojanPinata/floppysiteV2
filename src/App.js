@@ -19,7 +19,7 @@ class App extends Component {
    render() {
       return (
          <div className="App">
-            <HashRouter base="/">
+            <HashRouter base="/floppysiteV2">
                   <Route path='/' component={<Home />} />
                   <Route path='/Deej' component={<Deej />} />
                   <Route path='/Hardware' component={<Hardware />} />
