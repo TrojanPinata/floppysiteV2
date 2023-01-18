@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
-import { HashRouter as Router, Routes, Route}
-    from 'react-router-dom';
+import { HashRouter, Route} from 'react-router-dom';
 
 import Home from "./pages/Home"
 import Deej from "./pages/Deej";
@@ -20,22 +19,20 @@ class App extends Component {
    render() {
       return (
          <div className="App">
-            <Router base="/">
-               <Routes>
-                  <Route path='/' element={<Home />} />
-                  <Route path='/Deej' element={<Deej />} />
-                  <Route path='/Hardware' element={<Hardware />} />
-                  <Route path='/Homelab' element={<Homelab />} />
-                  <Route path='/Juliette' element={<Juliette />} />
-                  <Route path='/Keyboard' element={<Keyboard />} />
-                  <Route path='/LineFollower' element={<LineFollower />} />
-                  <Route path='/Oled' element={<Oled />} />
-                  <Route path='/PicoHdmi' element={<PicoHdmi />} />
-                  <Route path='/SchoolProjects' element={<SchoolProjects />} />
-                  <Route path='/Zipf' element={<Zipf />} />
-                  <Route path='*' element={<NoPage />} />
-               </Routes>
-            </Router>
+            <HashRouter base="/">
+                  <Route path='/' component={<Home />} />
+                  <Route path='/Deej' component={<Deej />} />
+                  <Route path='/Hardware' component={<Hardware />} />
+                  <Route path='/Homelab' component={<Homelab />} />
+                  <Route path='/Juliette' component={<Juliette />} />
+                  <Route path='/Keyboard' component={<Keyboard />} />
+                  <Route path='/LineFollower' component={<LineFollower />} />
+                  <Route path='/Oled' component={<Oled />} />
+                  <Route path='/PicoHdmi' component={<PicoHdmi />} />
+                  <Route path='/SchoolProjects' component={<SchoolProjects />} />
+                  <Route path='/Zipf' component={<Zipf />} />
+                  <Route path='*' component={<NoPage />} />
+            </HashRouter>
             </div>
       );
    }
