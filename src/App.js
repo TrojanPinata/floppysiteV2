@@ -20,7 +20,7 @@ class App extends Component {
    render() {
       return (
          <div className="App">
-            <BrowserRouter basename={process.env.PUBLIC_URL}>
+            <Router>
                <Routes>
                   <Route path='/' element={<Home />} />
                   <Route path='/Deej' element={<Deej />} />
@@ -35,7 +35,7 @@ class App extends Component {
                   <Route path='/Zipf' element={<Zipf />} />
                   <Route path='*' element={<NoPage />} />
                </Routes>
-            </BrowserRouter>
+            </Router>
             </div>
       );
    }
