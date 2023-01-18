@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route}
+import { HashRouter as Router, Routes, Route}
     from 'react-router-dom';
 
 import Home from "./pages/Home"
@@ -20,9 +20,9 @@ class App extends Component {
    render() {
       return (
          <div className="App">
-            <Router basename={process.env.PUBLIC_URL}>
+            <Router base="/">
                <Routes>
-                  <Route path='/floppysitev2' element={<Home />} />
+                  <Route path='/' element={<Home />} />
                   <Route path='/Deej' element={<Deej />} />
                   <Route path='/Hardware' element={<Hardware />} />
                   <Route path='/Homelab' element={<Homelab />} />
