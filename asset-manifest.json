@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/floppycontainer/static/css/main.31d6cfe0.css",
+    "main.js": "/floppycontainer/static/js/main.0a56f9ae.js",
+    "index.html": "/floppycontainer/index.html",
+    "main.0a56f9ae.js.map": "/floppycontainer/static/js/main.0a56f9ae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.0a56f9ae.js"
+  ]
+}
