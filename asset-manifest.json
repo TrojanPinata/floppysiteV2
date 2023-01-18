@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/floppysitev2/static/css/main.31d6cfe0.css",
-    "main.js": "/floppysitev2/static/js/main.1ed566ad.js",
-    "index.html": "/floppysitev2/index.html",
-    "main.1ed566ad.js.map": "/floppysitev2/static/js/main.1ed566ad.js.map"
+    "main.css": "/floppysiteV2/static/css/main.31d6cfe0.css",
+    "main.js": "/floppysiteV2/static/js/main.42135c19.js",
+    "index.html": "/floppysiteV2/index.html",
+    "main.42135c19.js.map": "/floppysiteV2/static/js/main.42135c19.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.1ed566ad.js"
+    "static/js/main.42135c19.js"
   ]
 }
