@@ -7,9 +7,7 @@ class Projects extends Component {
          <section id="projects">
             <Fade duration={1000}>
                <div className="projectList">
-
-                     <h3></h3>
-
+                  <h3></h3>
                   <ul>
                      <p><a href="https://github.com/TrojanPinata/DIY-Mic" className="projectButton">DIY Microphone</a></p>
                   </ul>
@@ -42,6 +40,9 @@ class Projects extends Component {
                   </ul>
                   <ul>
                      <p><a href="/PicoHdmi" className="projectButton">Pico HDMI</a></p>
+                  </ul>
+                  <ul>
+                     <p><a href="/FloppySiteV2" className="projectButton">Floppy Site V2</a></p>
                   </ul>
                </div>
             </Fade>
