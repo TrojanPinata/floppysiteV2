@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route}
-    from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import ScrollToTop from "./ScrollToTop"
 
 import Home from "./pages/Home"
 import Deej from "./pages/Deej";
@@ -22,21 +22,23 @@ class App extends Component {
       return (
          <div className="App">
             <Router basename="/">
-               <Routes>
-                  <Route path='/' element={<Home />} />
-                  <Route path='/Deej' element={<Deej />} />
-                  <Route path='/Hardware' element={<Hardware />} />
-                  <Route path='/Homelab' element={<Homelab />} />
-                  <Route path='/Juliette' element={<Juliette />} />
-                  <Route path='/Keyboard' element={<Keyboard />} />
-                  <Route path='/LineFollower' element={<LineFollower />} />
-                  <Route path='/Oled' element={<Oled />} />
-                  <Route path='/PicoHdmi' element={<PicoHdmi />} />
-                  <Route path='/SchoolProjects' element={<SchoolProjects />} />
-                  <Route path='/Zipf' element={<Zipf />} />
-                  <Route path='/FloppySiteV2' element={<FloppySiteV2 />} />
-                  <Route path='*' element={<NoPage />} />
-               </Routes>
+               <ScrollToTop>
+                  <Routes>
+                     <Route path='/' element={<Home />} />
+                     <Route path='/Deej' element={<Deej />} />
+                     <Route path='/Hardware' element={<Hardware />} />
+                     <Route path='/Homelab' element={<Homelab />} />
+                     <Route path='/Juliette' element={<Juliette />} />
+                     <Route path='/Keyboard' element={<Keyboard />} />
+                     <Route path='/LineFollower' element={<LineFollower />} />
+                     <Route path='/Oled' element={<Oled />} />
+                     <Route path='/PicoHdmi' element={<PicoHdmi />} />
+                     <Route path='/SchoolProjects' element={<SchoolProjects />} />
+                     <Route path='/Zipf' element={<Zipf />} />
+                     <Route path='/FloppySiteV2' element={<FloppySiteV2 />} />
+                     <Route path='*' element={<NoPage />} />
+                  </Routes>
+               </ScrollToTop>
             </Router>
          </div>
       );
