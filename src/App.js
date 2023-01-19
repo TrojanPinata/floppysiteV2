@@ -22,7 +22,7 @@ class App extends Component {
       return (
          <div className="App">
             <Router basename="/">
-               <ScrollToTop />
+               <ScrollToTop>
                <Routes>
                   <Route path='/' element={<Home />} />
                   <Route path='/Deej' element={<Deej />} />
@@ -38,6 +38,7 @@ class App extends Component {
                   <Route path='/FloppySiteV2' element={<FloppySiteV2 />} />
                   <Route path='*' element={<NoPage />} />
                </Routes>
+               </ScrollToTop>
             </Router>
          </div>
       );
