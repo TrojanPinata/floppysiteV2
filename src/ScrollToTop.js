@@ -1,13 +1,17 @@
-import { useEffect } from "react";
-import { useLocation } from "react-router";
+import { useEffect } from 'react';
+import { withRouter } from 'react-router-dom';
 
-const ScrollToTop = (props) => {
-   const location = useLocation();
-   useEffect(() => {
-     window.scrollTo(0, 0);
-   }, [location]);
- 
-   return <>{props.children}</>
- };
- 
- export default ScrollToTop;
+function ScrollToTop({ history }) {
+  useEffect(() => {
+    const unlisten = history.listen(() => {
+      window.scrollTo(0, 0);
+    });
+    return () => {
+      unlisten();
+    }
+  }, []);
+
+  return (null);
+}
+
+export default withRouter(ScrollToTop);
