@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Fade from "react-reveal";
+import { Link } from "react-router-dom";
 
 class Projects extends Component {
    render() {
@@ -12,37 +13,37 @@ class Projects extends Component {
                      <p><a href="https://github.com/TrojanPinata/DIY-Mic" className="projectButton">DIY Microphone</a></p>
                   </ul>
                   <ul>
-                     <p><a href="/Hardware" className="projectButton">FloppySite</a></p>
+                     <Link to="/Hardware">FloppySite</Link>
                   </ul>
                   <ul>
-                     <p><a href="/Juliette" className="projectButton">Vintage Headphones</a></p>
+                     <Link to="/Juliette">Vintage Headphones</Link>
                   </ul>
                   <ul>
-                     <p><a href="/Deej" className="projectButton">Deej Mixers</a></p>
+                     <Link to="/Deej">Deej Mixers</Link>
                   </ul>
                   <ul>
-                     <p><a href="/Homelab" className="projectButton">Homelab</a></p>
+                     <Link to="/Homelab">Homelab</Link>
                   </ul>
                   <ul>
-                     <p><a href="/Oled" className="projectButton">Very Small OLED Screens</a></p>
+                     <Link to="/Oled">Very Small OLED Screens</Link>
                   </ul>
                   <ul>
-                     <p><a href="/Zipf" className="projectButton">Zipfian Distributions</a></p>
+                     <Link to="/Zipf">Zipfian Distributions</Link>
                   </ul>
                   <ul>
-                     <p><a href="/Keyboard" className="projectButton">Keyboarding</a></p>
+                     <Link to="/Keyboard">Keyboarding</Link>
                   </ul>
                   <ul>
-                     <p><a href="/SchoolProjects" className="projectButton">School Projects</a></p>
+                     <Link to="/SchoolProjects">School Projects</Link>
                   </ul>
                   <ul>
-                     <p><a href="/LineFollower" className="projectButton">Line Following Robot</a></p>
+                     <Link to="/LineFollower">Line Following Robot</Link>
                   </ul>
                   <ul>
-                     <p><a href="/PicoHdmi" className="projectButton">Pico HDMI</a></p>
+                     <Link to="/PicoHdmi">Pico HDMI</Link>
                   </ul>
                   <ul>
-                     <p><a href="/FloppySiteV2" className="projectButton">Floppy Site V2</a></p>
+                     <Link to="/FloppySiteV2">Floppy Site V2</Link>
                   </ul>
                </div>
             </Fade>
