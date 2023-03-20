@@ -45,6 +45,9 @@ class Projects extends Component {
                   <ul>
                      <Link to="/FloppySiteV2">Floppy Site V2</Link>
                   </ul>
+                  <ul>
+                     <Link to="/Mipsvga">MIPS VGA Output</Link>
+                  </ul>
                </div>
             </Fade>
          </section>

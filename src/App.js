@@ -16,6 +16,7 @@ import PicoHdmi from "./pages/PicoHdmi";
 import SchoolProjects from "./pages/SchoolProjects";
 import Zipf from "./pages/Zipf";
 import FloppySiteV2 from "./pages/FloppySiteV2";
+import Mipsvga from "./pages/Mipsvga";
 
 class App extends Component {
    render() {
@@ -36,6 +37,7 @@ class App extends Component {
                   <Route path='/SchoolProjects' element={<SchoolProjects />} />
                   <Route path='/Zipf' element={<Zipf />} />
                   <Route path='/FloppySiteV2' element={<FloppySiteV2 />} />
+                  <Route path='/Mipsvga' element={<Mipsvga />} />
                   <Route path='*' element={<NoPage />} />
                </Routes>
             </Router>
