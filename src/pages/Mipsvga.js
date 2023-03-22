@@ -19,7 +19,10 @@ class Mipsvga extends Component {
                <p>To get the data for my data memory module, I wrote a python script to convert a image/video into usable text which could easily be stored in the .vhd file. The result was one of the more decently written scripts I have written and taught me how unbelievably inefficient storing video in such a discrete way was. One look at the file size made me very skeptical of the Artix-7 line’s possible LUT cells (foreshadowing).</p>
                <p>Regardless, I pushed on. I designed a simple top level design using Vivado’s block design tool, and learned another valuable lesson about why VHDL is not the preferred language of Vivado. I will be learning Verilog after this to make my life easier. The finished product was a sort of hack job, as a few <i>difficulties</i> made designing this a chore and somewhat reliant on the <a href="https://www.youtube.com/watch?v=lIFE7h3m40U">Art of the Bodge.</a></p>
                <p>As I said earlier, I was concerned that I would not have enough cells for the entire memory. I was correct, I was unable to run this project in its full glory because of it. The result is a sort of anti-climactic end. I wrote this entire thing in ~3 days during my break, and I will not continue it after. There is no real point to wasting my time on this while my classes beat me to death. The proper solution to make this work is to directly connect the memory to the controller and reduce the image resolution to 320x240. It would not be what I set out to do, but as always, simple is better. It is what it is.</p>
-               <p>Until next time.</p></Fade>
+               <p>Until next time.</p>
+               <h3>Quick update</h3>
+               <p>I wrote all of this down expecting return to my classes and be immediately swamped with assignments and projects. Somehow though, that has not happened (almost frustratingly). I worked some more on this, and I have something that <i>almost</i> works. Here is the <a href="https://github.com/TrojanPinata/MIPS-VGA">Github</a> repository for it. </p>
+               </Fade>
             </div>
             <Footer />
          </div>
