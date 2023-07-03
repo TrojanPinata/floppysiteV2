@@ -322,4 +322,7 @@ footer .social-links li:first-child { margin-left: 0; }
    padding-bottom: 24px;
 }
 
+.proj a, .proj a:visited { color: #008fc7; }
+.proj a:hover, footer a:focus { color: #c341ff; }
+
 /* Project details from education career cannot be provided because of plagarism, but if needed, here's a summary. */
