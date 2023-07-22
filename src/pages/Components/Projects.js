@@ -48,6 +48,9 @@ class Projects extends Component {
                   <ul>
                      <Link to="/Mipsvga">MIPS VGA Output</Link>
                   </ul>
+                  <ul>
+                     <Link to="/PiDraw">PiDraw</Link>
+                  </ul>
                </div>
             </Fade>
          </section>
