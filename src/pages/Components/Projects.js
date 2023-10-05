@@ -10,7 +10,7 @@ class Projects extends Component {
                <div className="projectList">
                   <h3></h3>
                   <ul>
-                     <p><a href="https://github.com/TrojanPinata/DIY-Mic" className="projectButton">DIY Microphone</a></p>
+                     <a href="https://github.com/TrojanPinata/DIY-Mic">DIY Microphone</a>
                   </ul>
                   <ul>
                      <Link to="/Hardware">FloppySite</Link>
@@ -46,10 +46,13 @@ class Projects extends Component {
                      <Link to="/FloppySiteV2">Floppy Site V2</Link>
                   </ul>
                   <ul>
-                     <Link to="/Mipsvga">MIPS VGA Output</Link>
+                     <Link to="/Mipsvga">MIPS VGA Controller</Link>
                   </ul>
                   <ul>
                      <Link to="/PiDraw">PiDraw</Link>
+                  </ul>
+                  <ul>
+                     <Link to="/DIYMicRedux">DIY Microphone: Revisited</Link>
                   </ul>
                </div>
             </Fade>

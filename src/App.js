@@ -18,6 +18,7 @@ import Zipf from "./pages/Zipf";
 import FloppySiteV2 from "./pages/FloppySiteV2";
 import Mipsvga from "./pages/Mipsvga";
 import PiDraw from "./pages/PiDraw";
+import DIYMicRedux from "./pages/DIYMicRedux";
 
 class App extends Component {
    render() {
@@ -40,6 +41,7 @@ class App extends Component {
                   <Route path='/FloppySiteV2' element={<FloppySiteV2 />} />
                   <Route path='/Mipsvga' element={<Mipsvga />} />
                   <Route path='/PiDraw' element={<PiDraw />} />
+                  <Route path='/DIYMicRedux' element={<DIYMicRedux />} />
                   <Route path='*' element={<NoPage />} />
                </Routes>
             </Router>
