@@ -21,7 +21,10 @@ class SchoolProjects extends Component{
                <p>This was the final homework for my C programming class my sophomore year. The basic idea was to sort IP addresses based on locality and aliases, while removing those which are invalid or out of range. My method was to use two structures and split IP addresses and aliases into one, sort the aliases and IPs by name, and remove all of the invalid entries. I was given a text file containing a list of unsorted IP addresses and aliases, and outputted a similarly formatted file containing the result, and another containing any invalid entries.</p>
                <h3>Specrtogram Analysis and Simulations - CT Signals and Systems</h3>
                <p>This was the first lab for my CT Signal Processing class (which used discrete time funnily enough). The purpose of this lab was to write a MATLAB script that could analyze a sound file and simulate, via a separate script, an approximation of the recorded signal. I ended up recording a chord I played on a keyboard with my phone, porting it into MATLAB, processing it, and displaying it as a spectrogram. This was a rather simple lab, but the point was to demonstrate a basic level of competence in displaying frequencies and frequency changes over time.</p>
-               <img src="https://i.imgur.com/E5Mrr99.png" alt="tritone spectrogram" /></Fade>
+               <img src="https://i.imgur.com/E5Mrr99.png" alt="tritone spectrogram" />
+               <h3>Basic MIPS Processor in VHDL - Computer Organization</h3>
+               <p>This was a comprehensive project for my computer organization class which involved creating parts of a MIPS processor and combining them to make a functioning processor. My implementation was a bit more advanced than necessary, implementing memory mapped I/O and basic branch prediction. The entire processor was run on the Basys 3 development board and written in Vivado.</p>
+               </Fade>
             </div>
             <Footer />
          </div>
