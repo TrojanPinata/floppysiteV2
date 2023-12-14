@@ -54,6 +54,12 @@ class Projects extends Component {
                   <ul>
                      <Link to="/DIYMicRedux">DIY Microphone: Revisited</Link>
                   </ul>
+                  {/* <ul>
+                     <Link to="/Planar">Planar Magnetic Headphones</Link>
+                  </ul> */}
+                  {/* <ul>
+                     <Link to="/MOS">mOS</Link>
+                  </ul> */}
                </div>
             </Fade>
          </section>
