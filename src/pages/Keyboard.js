@@ -27,8 +27,18 @@ class Keyboard extends Component {
                <img src="https://i.imgur.com/U2uxMqs.jpg" alt="logo/components" />
                <img src="https://i.imgur.com/WDH4Dx8.jpg" alt="oled screen" />
                <img src="https://i.imgur.com/dubV2il.jpg" alt="credit + stabilizer + bare PCB" />
-               <p>Until next time.</p></Fade>
-
+               <p>Until next time.</p>
+               <br />
+               <h3>Model A & Model C</h3>
+               <p>It has been around a year and a half since I wrote this page, so I thought I’d check in with some updates and other projects which are related, but do not have their own pages here for one reason or another.</p>
+               <p>To start with an update, I still use this keyboard every day and I have no plans of stopping. This board is still in fantastic condition and performs extremely well for what I use it for. I updated some of the OLED display images pretty soon after posting this to a pixelated bitmap of some mountains, but other than that everything is in the same condition. If I crack the acrylic more, I might make another, but for now it will continue doing its thing.</p>
+               <p>As obvious by the title, there are two other keyboard and keyboard adjacent projects I have been working on which I want to talk about here. The <i>keyboard</i> project I have done since has been the Model A, a 75% keyboard which I want to be the successor to the Model K. It would be primarily SMD based with hot swappable keys and an integrated RP2040. The only thing holding me back from making this a reality is the cost of getting acrylic made. If I do this, I am going to do a small run of 8-10 and make some for my friends. Each keyboard using Ponoko for laser cutting is ~$200, and its significantly more cost efficient for me to wait and buy a CNC router/laser cutter. As it stands currently, this project is postponed.</p>
+               <img src="https://camo.githubusercontent.com/f04eb47dd09d76dbebb0e60287e22f1037e4ae82313fade2d400e725545f16e6/68747470733a2f2f692e696d6775722e636f6d2f3064454a5054592e706e67" alt="Model A PCB Layout" />
+               <p>Model C on the other hand, is certainly doable, but much more technically complicated and ambitious than I had originally planned. Model C is not a keyboard, but a calculator powered by a ATmega32A and mechanical switches. The goal was to make it very similar to the <a href="https://www.switchkeys.com.au/products/tentaku-mechanical-calculator">Tentaku Mechanical Calculator</a>. This, in theory, is not very difficult, but requires some deeper understanding of microcontrollers which I do not currently have. Combine that with a bit of scope creep and this too will be postponed (I also need a laser cutter for this lmao).</p>
+               <div className="tallimg"><img src="https://camo.githubusercontent.com/b592d0134f66a02640b72a3138660e63343b9aa72d0ec8104c27fbced629e203/68747470733a2f2f692e696d6775722e636f6d2f4b4a67524e4e4a2e706e67" alt="Model C PCB Layout" /></div>
+               <p>There you go, that’s what I have been doing in the world of keyboards the past few months. I will probably do more work on the Model A in the future so look forward to that.</p>
+               <p>And as always, until next time.</p>
+               </Fade>
             </div>
             <Footer />
          </div>

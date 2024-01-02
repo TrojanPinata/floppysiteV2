@@ -19,6 +19,7 @@ import FloppySiteV2 from "./pages/FloppySiteV2";
 import Mipsvga from "./pages/Mipsvga";
 import PiDraw from "./pages/PiDraw";
 import DIYMicRedux from "./pages/DIYMicRedux";
+import MOS from "./pages/MOS";
 
 class App extends Component {
    render() {
@@ -42,6 +43,7 @@ class App extends Component {
                   <Route path='/Mipsvga' element={<Mipsvga />} />
                   <Route path='/PiDraw' element={<PiDraw />} />
                   <Route path='/DIYMicRedux' element={<DIYMicRedux />} />
+                  <Route path='/MOS' element={<MOS />} />
                   <Route path='*' element={<NoPage />} />
                </Routes>
             </Router>
