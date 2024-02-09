@@ -20,6 +20,7 @@ import Mipsvga from "./pages/Mipsvga";
 import PiDraw from "./pages/PiDraw";
 import DIYMicRedux from "./pages/DIYMicRedux";
 import MOS from "./pages/MOS";
+import Planar from "./pages/Planar";
 
 class App extends Component {
    render() {
@@ -44,6 +45,7 @@ class App extends Component {
                   <Route path='/PiDraw' element={<PiDraw />} />
                   <Route path='/DIYMicRedux' element={<DIYMicRedux />} />
                   <Route path='/MOS' element={<MOS />} />
+                  <Route path='/Planar' element={<Planar />} />
                   <Route path='*' element={<NoPage />} />
                </Routes>
             </Router>
