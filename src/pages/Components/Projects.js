@@ -60,9 +60,9 @@ class Projects extends Component {
                   <ul>
                      <Link to="/Planar">Planar Magnetic Headphones</Link>
                   </ul>
-                  {/* <ul>
+                  <ul>
                      <Link to="/Nintoaster">Nintoaster</Link>
-                  </ul> */}
+                  </ul>
                   
                </div>
             </Fade>
