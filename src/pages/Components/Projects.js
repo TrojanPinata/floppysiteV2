@@ -63,6 +63,9 @@ class Projects extends Component {
                   <ul>
                      <Link to="/Nintoaster">Nintoaster</Link>
                   </ul>
+                  <ul>
+                     <Link to="/AmenBreak">Amen Break Machine</Link>
+                  </ul>
                   
                </div>
             </Fade>

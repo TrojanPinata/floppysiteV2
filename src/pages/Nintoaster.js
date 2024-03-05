@@ -21,6 +21,7 @@ class Nintoaster extends Component{
                   <div className="Youtube">
                      <Youtube videoId="ncmCrHBWucw" opts={opts} />   
                   </div>
+                  <p>Until next time.</p>
                </Fade>
             </div>
             <Footer />
