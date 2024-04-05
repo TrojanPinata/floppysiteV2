@@ -23,6 +23,7 @@ import MOS from "./pages/MOS";
 import Planar from "./pages/Planar";
 import Nintoaster from "./pages/Nintoaster";
 import AmenBreak from "./pages/AmenBreak";
+import Wii from "./pages/Wii";
 
 class App extends Component {
    render() {
@@ -50,6 +51,7 @@ class App extends Component {
                   <Route path='/Planar' element={<Planar />} />
                   <Route path='/Nintoaster' element={<Nintoaster />} />
                   <Route path='/AmenBreak' element={<AmenBreak />} />
+                  <Route path='/Wii' element={<Wii />} />
                   <Route path='*' element={<NoPage />} />
                </Routes>
             </Router>
