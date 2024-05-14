@@ -10,6 +10,9 @@ class Projects extends Component {
                <div className="projectList">
                   <h3></h3>
                   <ul>
+                     <Link to="/SchoolProjects">School Projects</Link>
+                  </ul>
+                  <ul>
                      <a href="https://github.com/TrojanPinata/DIY-Mic">DIY Microphone</a>
                   </ul>
                   <ul>
@@ -32,9 +35,6 @@ class Projects extends Component {
                   </ul>
                   <ul>
                      <Link to="/Keyboard">Keyboarding</Link>
-                  </ul>
-                  <ul>
-                     <Link to="/SchoolProjects">School Projects</Link>
                   </ul>
                   <ul>
                      <Link to="/LineFollower">Line Following Robot</Link>
