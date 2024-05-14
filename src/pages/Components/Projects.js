@@ -69,6 +69,9 @@ class Projects extends Component {
                   <ul>
                      <Link to="/Wii">Making My Wii into a Raspberry Pi</Link>
                   </ul>
+                  <ul>
+                     <Link to="/Steganography">Quick Steganography</Link>
+                  </ul>
                   
                </div>
             </Fade>
