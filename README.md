@@ -1,7 +1,7 @@
 # FloppySiteV2
 This is the second iteration of my FloppySite project, a website which serves to host my projects other random things I want to write about.
 
-If you are unfamiliar with react, here are the basic commands: (do all of these in order to get project to state as in repository)
+If you are unfamiliar with react, here are the basic commands: (do all of these in order to get project to same state as in repository)
 
 - `npm install -g` installs node-modules for project
 
@@ -14,7 +14,7 @@ If you are unfamiliar with react, here are the basic commands: (do all of these 
 Other commands like `npm test` and `npm run eject` are important too, but not for this repo.
 (do not mind vulnerabillities after install)
 
-~~React Router 6 is used to switch pages. As a result, github-pages cannot be used (look it up, there are tons of problem due to it working on html5)~~
+~~React Router 6 is used to switch pages. As a result, github-pages cannot be used (look it up, there are tons of problems due to it working on html5)~~
 
 I use HashRouter now because React Router just kinda... breaks? Like all of the time? But only for certain people at certain times? idk man I like HashRouter now I guess.
 
