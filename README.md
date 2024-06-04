@@ -21,3 +21,5 @@ I use HashRouter now because React Router just kinda... breaks? Like all of the 
 <br>
 
 Old version of FloppySite can be seen at [https://brianchill.us/old/index.html](https://brianchill.us/old/index.html)
+
+Note: I leave my build directory in this repo as to make deployment easier. If you want to run this exact site locally, just run `serve -s build`
