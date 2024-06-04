@@ -12,6 +12,7 @@
 \usepackage[english]{babel}
 \usepackage{tabularx}
 \usepackage{graphicx}
+\usepackage{atbegshi}
 \input{glyphtounicode}
 
 
@@ -91,6 +92,10 @@
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\AtBeginShipoutNext{\AtBeginShipoutUpperLeft{
+  \put(\dimexpr\paperwidth-4.15cm\relax,-3.25cm){\includegraphics[width=3cm]{website.png}}
+}}
 
 %-------------------------------------------
 %%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -194,7 +199,7 @@
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
      \textbf{Languages}{: Python, C/C++, Java, PL/SQL, MATLAB, VHDL, JS/Web, Bash} \\
-     \textbf{Software/Packages}{: MS Office, Adobe CC, Fusion 360/Inventor, Xilinx Vivado/Vitis, KiCAD/PSpice, Docker, Git, Jenkins, SQL Developer, Nginx/Apache, Node - ReactJS, OpenCV, Linux, Proxmox} \\
+     \textbf{Software/Packages}{: MS Office, Adobe CC, Autodesk Inventor, Xilinx Vivado/Vitis, KiCAD, PSpice, Docker, Git, Jenkins, SQL Developer, Nginx/Apache, Node - ReactJS, OpenCV, Linux, Proxmox} \\
      \textbf{Hardware Competencies}{: FPGAs, Microcontrollers, Elec.Testing Insts., Networking Devices} \\
     }}
  \end{itemize}
@@ -203,7 +208,7 @@
 \section{Awards \& Certifications}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     {\textbf{IT Silver Medal} $|$ {June 2020}} \\ 
+     {\textbf{AWS Cloud Practitioner Accreditation} $|$ {June 2023}} \\ 
      {\textbf{GMU Tech Talent Awards} $|$ {Multiple Years}}
     }}
  \end{itemize}
