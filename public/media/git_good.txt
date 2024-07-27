@@ -19,7 +19,6 @@ git tag                                   // set a tag point which can be used f
 git merge <commit>                        // merge current commit and specified commit together to new commit
 git branch <commitname>                   // make new branch with name
 git branch -d <commitname>                // delete branch
-git push origin --delete                  // delete branch in remote
 git push origin master --force            // (dangerous!) overwrite remote repo with current commit
 git stash                                 // stash away your changes for later (local)
 git stash save <name>                     // save stash as name
@@ -40,6 +39,7 @@ git bisect good                           // let bisect know the bug is not in t
 git bisect bad                            // let bisect know the bug is in this commit
 git reset --hard <branch>                 // nuke local code with remote code from branch
 git clean -df                             // clean up untracked files and starys in local repo
+git push origin --delete                  // delete branch in remote
 
 
 // tips 
