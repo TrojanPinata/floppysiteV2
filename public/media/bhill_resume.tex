@@ -13,6 +13,7 @@
 \usepackage{tabularx}
 \usepackage{graphicx}
 \usepackage{atbegshi}
+\usepackage{changepage}
 \input{glyphtounicode}
 
 
@@ -58,33 +59,33 @@
 % Custom commands
 \newcommand{\resumeItem}[1]{
   \item\small{
-    {#1 \vspace{-2pt}}
+    {#1 \vspace{-1pt}}
   }
 }
 
 \newcommand{\resumeSubheading}[4]{
-  \vspace{-2pt}\item
+  \vspace{-1pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-7pt}
+    \end{tabular*}\vspace{-5pt}
 }
 
 \newcommand{\resumeSubSubheading}[2]{
     \item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \textit{\small#1} & \textit{\small #2} \\
-    \end{tabular*}\vspace{-7pt}
+    \end{tabular*}\vspace{-5pt}
 }
 
 \newcommand{\resumeProjectHeading}[2]{
     \item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \small#1 & #2 \\
-    \end{tabular*}\vspace{-7pt}
+    \end{tabular*}\vspace{-5pt}
 }
 
-\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-2pt}}
 
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
@@ -93,8 +94,9 @@
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
+% QR CODE
 \AtBeginShipoutNext{\AtBeginShipoutUpperLeft{
-  \put(\dimexpr\paperwidth-3.5cm\relax,-3.00cm){\includegraphics[width=2.25cm]{website.png}}
+  \put(\dimexpr\paperwidth-3.8cm\relax,-3.45cm){\includegraphics[width=2.6cm]{website.png}}
 }}
 
 %-------------------------------------------
@@ -107,39 +109,42 @@
 
 
 \begin{center}
-    \textbf{\Huge \scshape Brian Hill} \\ \vspace{1pt}
-    \small 703-946-1545 $|$ \href{mailto:hillbr20@gmail.com}{\underline{hillbr20@gmail.com}} $|$ 
-    \href{https://www.linkedin.com/in/brian-hill-0082161a3/}{\underline{LinkedIn}} $|$
-    \href{https://github.com/TrojanPinata}{\underline{Github/TrojanPinata}} $|$
-    \href{https://brianchill.us/}{\underline{brianchill.us/}}
+    \textbf{\Huge \scshape Brian Hill} \\ \vspace{3pt}
+    \small 
+    Haymarket, VA  $|$ \small 703-946-1545 $|$ \href{mailto:hillbr20@gmail.com}{\underline{hillbr20@gmail.com}} \\ \vspace{1pt}
+    \href{https://www.linkedin.com/in/brian-hill-0082161a3/}{\underline{LinkedIn: brian-hill-0082161a3}} $|$
+    \href{https://github.com/TrojanPinata}{\underline{Github @TrojanPinata}} $|$
+    \href{https://brianchill.us/}{\underline{brianchill.us/}} \\ \vspace{3pt}
+    Active Public Trust Clearance
 \end{center}
 
-
-%-----------EDUCATION-----------
-\section{Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {George Mason University}{Fairfax, VA}
-      {Computer Engineering, BS}{Expected May 2025}
-          \resumeItemListStart
-            \resumeItem{Notable Courses: Circuit Analysis I/II, Data Structures and Embedded Systems Programming, Continuous-Time Signals and Systems, Digital System Design, Operating Systems, Computer Organization, Embedded Systems, Computer Architecture, Linear Electronics, FPGA Design in VHDL, Microcontrollers}
-            
-        \resumeItemListEnd
-
-  \resumeSubHeadingListEnd
+%-----------SUMMARY------------
+\section{Summary}
+  \vspace{2pt} 
+  \small \begin{adjustwidth}{0.15in}{0in}
+	Software developer well-versed in systems ranging from large enterprise-wide financial programs to small scale embedded computers.
+	Driven to implement robust, real world solutions applicable to a wide range of problems while ensuring compliance and performance. 
+	Strong background in both software developement and hardware engineering, providing a blend of both skill sets when implementing complex solutions.
+	Highly adaptable and ready to take on new technologies.
+\end{adjustwidth}
 
 %-----------EXPERIENCE-----------
 \section{Work Experience}
   \resumeSubHeadingListStart
 
     \resumeSubheading
-      {Software Developer}{Reston, VA}
+      {Software Developer}{Chantilly, VA}
       {CACI International Inc.}{May 2023 – Present}
       \resumeItemListStart
         \resumeItem{Modified and developed SQL scripts for conversion between government financial systems.}
-        \resumeItem{Worked on Python-Selenium-based automated testing tool for Momentum based software.}
+        \resumeItem{Developed Python-Selenium-based automated testing tool for government financial software (Momentum).}
         \resumeItem{Utilized government-based Agile approach to efficiently iterate on given requirements.}
-        \resumeItem{Received public trust clearance from VA.}
+        \resumeItem{Deployed and released solutions to client with minimal downtime and confirmed functionality.}
+        \resumeItem{Tested and maintained current and legacy systems to validate performance and compliance with current systems.}
+        \resumeItem{Analyzed client requirements and created necessary documentation for future development and integration.}
+        \resumeItem{Work with experienced team members to design and modify existing workflows surrounding previous software solutions.}
+        \resumeItem{Evaluated and implemented new interface technologies to provide fresh and intuitive user experience.}
+        \resumeItem{Used ReactJS to develop Node-based GUI for Python backend.}
       \resumeItemListEnd
 
     \resumeSubheading
@@ -154,7 +159,41 @@
       
     \resumeSubHeadingListEnd
 
-%-----------COMMUNITY AND LEADERSHIP-----------
+%
+%-----------TECHNICAL SKILLS-----------
+\section{Skills \& Attributions}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Clearance}{: Public Trust} \\
+     \textbf{Languages}{: Python, C/C++, Java, PL/SQL, MATLAB, VHDL, JS/Web, Bash} \\
+     \textbf{Software/Packages}{: MS Office, Adobe CC, Autodesk Inventor, Xilinx Vivado/Vitis, KiCAD, PSpice, Docker, Git, Jenkins, SQL Developer, Nginx/Apache, Node - ReactJS, OpenCV, Linux, Proxmox} \\
+     \textbf{Hardware Competencies}{: FPGAs, Microcontrollers, Elec.Testing Insts., Networking Devices} \\
+    }}
+ \end{itemize}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {George Mason University}{Fairfax, VA}
+      {Computer Engineering, BS}{Expected May 2025}
+          \resumeItemListStart
+            \resumeItem{Notable Courses: Circuit Analysis I/II, Data Structures and Embedded Systems Programming, Continuous-Time Signals and Systems, Digital System Design, Operating Systems, Computer Organization, Embedded Systems, Computer Architecture, Linear Electronics, FPGA Design in VHDL, Microcontrollers}
+            
+        \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------AWARDS & CERTS-----------
+\section{Awards \& Certifications}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     {\textbf{AWS Cloud Practitioner Accreditation} $|$ {June 2023}} \\ 
+     {\textbf{GMU Tech Talent Awards} $|$ {Multiple Years}}
+    }}
+ \end{itemize}
+
+%-----------PROJECTS-----------
 \section{Projects}
   \resumeSubHeadingListStart
 
@@ -162,9 +201,19 @@
       {Keyboard Design}{}
       {\href{https://brianchill.us/\#/Keyboard}{brianchill.us/\#/Keyboard}}{}
       \resumeItemListStart
-        \resumeItem{Designed schematic, PCB, and external housing for external manufacturing.}
+        \resumeItem{Designed schematic and PCB for external manufacturing as well as automated assembly of onboard components.}
         \resumeItem{Added functionality to existing firmware and documented changes/code on Github.}
         \resumeItem{Wrote bill of materials and chose cost effective components for design which were implemented into final product.}
+        \resumeItem{Designed and manufactured ergonomic housing to contain assembly and remain consistent with similar designs on the market.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Open-Source Macropad}{}
+      {\href{https://brianchill.us/\#/Macropad}{brianchill.us/\#/Macropad}}{}
+      \resumeItemListStart
+        \resumeItem{Designed simple, easy to manufacture 3D printed case, printable on any 3D printer.}
+        \resumeItem{Wrote firmware based on existing, widely used software to promote consitancy between similar keyboards.}
+        \resumeItem{Engineered PCB for cost effective production with alternatives to reduce reliance on third party manufacturing.}
       \resumeItemListEnd
       
     \resumeSubheading
@@ -172,6 +221,7 @@
       {\href{https://brianchill.us/\#/PiDraw}{brianchill.us/\#/PiDraw}}{}
       \resumeItemListStart
         \resumeItem{Developed program for decoding location instructions and drawing on custom designed hardware.}
+        \resumeItem{Designed CAD model of all components for low material 3D printing and structural stability during high stress movements.}
         \resumeItem{Used OpenCV to process images and generate location instructions from input images.}
       \resumeItemListEnd
 
@@ -192,26 +242,6 @@
       \resumeItemListEnd
 
     \resumeSubHeadingListEnd
-
-%
-%-----------TECHNICAL SKILLS-----------
-\section{Technical Skills}
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     \textbf{Languages}{: Python, C/C++, Java, PL/SQL, MATLAB, VHDL, JS/Web, Bash} \\
-     \textbf{Software/Packages}{: MS Office, Adobe CC, Autodesk Inventor, Xilinx Vivado/Vitis, KiCAD, PSpice, Docker, Git, Jenkins, SQL Developer, Nginx/Apache, Node - ReactJS, OpenCV, Linux, Proxmox} \\
-     \textbf{Hardware Competencies}{: FPGAs, Microcontrollers, Elec.Testing Insts., Networking Devices} \\
-    }}
- \end{itemize}
-
-%-----------Awards-----------
-\section{Awards \& Certifications}
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     {\textbf{AWS Cloud Practitioner Accreditation} $|$ {June 2023}} \\ 
-     {\textbf{GMU Tech Talent Awards} $|$ {Multiple Years}}
-    }}
- \end{itemize}
 
 
 %-------------------------------------------

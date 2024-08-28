@@ -72,6 +72,9 @@ class Projects extends Component {
                   <ul>
                      <Link to="/Steganography">Quick Steganography</Link>
                   </ul>
+                  <ul>
+                     <Link to="/Macropad">Pico-based Macropad</Link>
+                  </ul>
                   
                </div>
             </Fade>

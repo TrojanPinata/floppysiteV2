@@ -25,6 +25,7 @@ import Nintoaster from "./pages/Nintoaster";
 import AmenBreak from "./pages/AmenBreak";
 import Wii from "./pages/Wii";
 import Steganography from "./pages/Steganography";
+import Macropad from "./pages/Macropad";
 
 class App extends Component {
    render() {
@@ -54,6 +55,7 @@ class App extends Component {
                   <Route path='/AmenBreak' element={<AmenBreak />} />
                   <Route path='/Wii' element={<Wii />} />
                   <Route path='/Steganography' element={<Steganography />} />
+                  <Route path='/Macropad' element={<Macropad />} />
                   <Route path='*' element={<NoPage />} />
                </Routes>
             </Router>

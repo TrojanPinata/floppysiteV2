@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.3)  10 JUL 2024 13:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.3)  22 AUG 2024 11:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -306,47 +306,52 @@ Package graphics Info: Driver file: pdftex.def on input line 107.
 \Gin@req@height=\dimen160
 \Gin@req@width=\dimen161
 )
+(C:\Users\Moe\AppData\Local\Programs\MiKTeX\tex/latex/changepage\changepage.sty
+Package: changepage 2009/10/20 v1.0c check page and change page layout
+\c@cp@cntr=\count285
+\cp@tempcnt=\count286
+)
 (C:\Users\Moe\AppData\Local\Programs\MiKTeX\tex/generic/pdftex\glyphtounicode.t
 ex)
 (C:\Users\Moe\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdfte
 x.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count285
+\l__color_backend_stack_int=\count287
 \l__pdf_internal_box=\box56
 ) (bhill_resume.aux)
 \openout1 = `bhill_resume.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
 
 (C:\Users\Moe\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count286
+\scratchcounter=\count288
 \scratchdimen=\dimen162
 \scratchbox=\box57
-\nofMPsegments=\count287
-\nofMParguments=\count288
+\nofMPsegments=\count289
+\nofMParguments=\count290
 \everyMPshowfont=\toks25
-\MPscratchCnt=\count289
+\MPscratchCnt=\count291
 \MPscratchDim=\dimen163
-\MPnumerator=\count290
-\makeMPintoPDFobject=\count291
+\MPnumerator=\count292
+\makeMPintoPDFobject=\count293
 \everyMPtoPDFconversion=\toks26
 )
 (C:\Users\Moe\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-bas
@@ -358,7 +363,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (C:\Users\Moe\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 104.
+Package hyperref Info: Link coloring OFF on input line 106.
  (bhill_resume.out) (bhill_resume.out)
 \@outlinefile=\write3
 \openout3 = `bhill_resume.out'.
@@ -366,23 +371,19 @@ Package hyperref Info: Link coloring OFF on input line 104.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 110.
+(Font)              using `OT1/cmr/bx/n' instead on input line 112.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 111.
+(Font)              <7> on input line 114.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 111.
+(Font)              <5> on input line 114.
 LaTeX Font Info:    Trying to load font information for U+lasy on input line 11
-1.
+4.
 (C:\Users\Moe\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 123.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 123.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 123.
+(Font)              <6> on input line 139.
 
 
 
@@ -390,15 +391,22 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 4.08003pt, for example:
 (fancyhdr)                \setlength{\footskip}{4.08003pt}.
 
-<website.png, id=31, 1029.8475pt x 1029.8475pt>
+<website.png, id=32, 1029.8475pt x 1029.8475pt>
 File: website.png Graphic file (type png)
 <use website.png>
-Package pdftex.def Info: website.png  used on input line 218.
-(pdftex.def)             Requested size: 64.01869pt x 64.00388pt.
+Package pdftex.def Info: website.png  used on input line 207.
+(pdftex.def)             Requested size: 73.97733pt x 73.96667pt.
 [1
 
 {C:/Users/Moe/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./website.png 
-(PNG copy)>] (bhill_resume.aux)
+(PNG copy)>]
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 4.08003pt, for example:
+(fancyhdr)                \setlength{\footskip}{4.08003pt}.
+
+[2] (bhill_resume.aux)
  ***********
 LaTeX2e <2024-06-01>
 L3 programming layer <2024-05-08>
@@ -408,16 +416,16 @@ L3 programming layer <2024-05-08>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `bhill_resume.out' has not changed.
-(rerunfilecheck)             Checksum: 8B5B30A879C990D44AA2C63FE542B49B;585.
+(rerunfilecheck)             Checksum: BFA334C2A2F2D16DEBCD11C3DBD73E85;694.
  ) 
 Here is how much of TeX's memory you used:
- 11070 strings out of 473937
- 176097 string characters out of 5728315
- 1959893 words of memory out of 5000000
- 33761 multiletter control sequences out of 15000+600000
- 563661 words of font info for 58 fonts, out of 8000000 for 9000
+ 11120 strings out of 473937
+ 177180 string characters out of 5728315
+ 1955893 words of memory out of 5000000
+ 33809 multiletter control sequences out of 15000+600000
+ 561876 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,355b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,355b,700s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Moe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
 bx10.pfb><C:/Users/Moe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
 s/cm/cmbx12.pfb><C:/Users/Moe/AppData/Local/Programs/MiKTeX/fonts/type1/public/
@@ -426,9 +434,9 @@ amsfonts/cm/cmcsc10.pfb><C:/Users/Moe/AppData/Local/Programs/MiKTeX/fonts/type1
 /type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Moe/AppData/Local/Programs/MiKTe
 X/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Moe/AppData/Local/Programs
 /MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on bhill_resume.pdf (1 page, 119048 bytes).
+Output written on bhill_resume.pdf (2 pages, 122561 bytes).
 PDF statistics:
- 78 PDF objects out of 1000 (max. 8388607)
- 7 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 87 PDF objects out of 1000 (max. 8388607)
+ 9 named destinations out of 1000 (max. 500000)
+ 54 words of extra memory for PDF output out of 10000 (max. 10000000)
 
