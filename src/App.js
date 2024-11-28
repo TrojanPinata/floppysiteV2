@@ -26,6 +26,7 @@ import AmenBreak from "./pages/AmenBreak";
 import Wii from "./pages/Wii";
 import Steganography from "./pages/Steganography";
 import Macropad from "./pages/Macropad";
+import ModelB from "./pages/ModelB";
 
 class App extends Component {
    render() {
@@ -56,6 +57,7 @@ class App extends Component {
                   <Route path='/Wii' element={<Wii />} />
                   <Route path='/Steganography' element={<Steganography />} />
                   <Route path='/Macropad' element={<Macropad />} />
+                  <Route path='/ModelB' element={<ModelB />} />
                   <Route path='*' element={<NoPage />} />
                </Routes>
             </Router>

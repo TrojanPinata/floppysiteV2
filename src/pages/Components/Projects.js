@@ -75,6 +75,9 @@ class Projects extends Component {
                   <ul>
                      <Link to="/Macropad">Pico-based Macropad</Link>
                   </ul>
+                  <ul>
+                     <Link to="/ModelB">Model B: My Next Keyboard</Link>
+                  </ul>
                   
                </div>
             </Fade>
