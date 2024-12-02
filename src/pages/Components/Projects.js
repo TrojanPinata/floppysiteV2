@@ -78,6 +78,9 @@ class Projects extends Component {
                   <ul>
                      <Link to="/ModelB">Model B: My Next Keyboard</Link>
                   </ul>
+                  <ul>
+                     <Link to="/Dispolens">Dispolens</Link>
+                  </ul>
                   
                </div>
             </Fade>
