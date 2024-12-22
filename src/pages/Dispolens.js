@@ -27,7 +27,7 @@ class Dispolens extends Component {
                   <img src="https://i.imgur.com/JDYHKUr.jpeg" alt="wall" />
                   <p>Large posters which reflect colors easily make for good lighting and this lens handles the reflections pretty well. Especially considering I probably scratched it during my prototyping.</p>
                   <img src="https://i.imgur.com/MxqAUEp.jpeg" alt="bass head" />
-                  <p>Because this lens has no ability to change focus, anything in a somewhat close range is basically unusable. People and things that are less than five feet away are this len's strong suit.</p>
+                  <p>Because this lens has no ability to change focus, anything in a somewhat close range is basically unusable. People and things that are less than five feet away are not this len's strong suit.</p>
                   <img src="https://i.imgur.com/pPJ7lva.jpeg" alt="close up of keyboard" />
                   <p>I love taking photos of extremely busy things, and my desk and office are the perfect examples of this. This lens does well not to get overwhelmed with reflections even though I had my pocket light right next to the lens.</p>
                   <img src="https://i.imgur.com/Hg1OAV8.jpeg" alt="final lens" />

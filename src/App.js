@@ -28,6 +28,7 @@ import Steganography from "./pages/Steganography";
 import Macropad from "./pages/Macropad";
 import ModelB from "./pages/ModelB";
 import Dispolens from "./pages/Dispolens";
+import TinyKeeb from "./pages/TinyKeeb";
 
 class App extends Component {
    render() {
@@ -60,6 +61,7 @@ class App extends Component {
                   <Route path='/Macropad' element={<Macropad />} />
                   <Route path='/ModelB' element={<ModelB />} />
                   <Route path='/Dispolens' element={<Dispolens />} />
+                  <Route path='/TinyKeeb' element={<TinyKeeb />} />
                   <Route path='*' element={<NoPage />} />
                </Routes>
             </Router>
