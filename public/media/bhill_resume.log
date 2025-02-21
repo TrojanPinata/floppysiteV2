@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.3)  22 NOV 2024 14:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.3)  20 FEB 2025 21:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -391,10 +391,10 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 4.08003pt, for example:
 (fancyhdr)                \setlength{\footskip}{4.08003pt}.
 
-<website.png, id=37, 1029.8475pt x 1029.8475pt>
+<website.png, id=35, 1029.8475pt x 1029.8475pt>
 File: website.png Graphic file (type png)
 <use website.png>
-Package pdftex.def Info: website.png  used on input line 215.
+Package pdftex.def Info: website.png  used on input line 208.
 (pdftex.def)             Requested size: 73.97733pt x 73.96667pt.
 [1
 
@@ -416,16 +416,16 @@ L3 programming layer <2024-05-08>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `bhill_resume.out' has not changed.
-(rerunfilecheck)             Checksum: CFCC6FD0D1CF361F76EF192CCDE3EC9B;830.
+(rerunfilecheck)             Checksum: 3A8924F662F51A12EC2EAA12DC11DE1D;901.
  ) 
 Here is how much of TeX's memory you used:
- 11122 strings out of 473937
- 177200 string characters out of 5728315
+ 11124 strings out of 473937
+ 177219 string characters out of 5728315
  1956893 words of memory out of 5000000
- 33810 multiletter control sequences out of 15000+600000
- 561876 words of font info for 51 fonts, out of 8000000 for 9000
+ 33811 multiletter control sequences out of 15000+600000
+ 562174 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,355b,644s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,356b,558s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Moe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
 bx10.pfb><C:/Users/Moe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
 s/cm/cmbx12.pfb><C:/Users/Moe/AppData/Local/Programs/MiKTeX/fonts/type1/public/
@@ -434,7 +434,7 @@ amsfonts/cm/cmcsc10.pfb><C:/Users/Moe/AppData/Local/Programs/MiKTeX/fonts/type1
 /type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Moe/AppData/Local/Programs/MiKTe
 X/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Moe/AppData/Local/Programs
 /MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on bhill_resume.pdf (2 pages, 124484 bytes).
+Output written on bhill_resume.pdf (2 pages, 125078 bytes).
 PDF statistics:
  93 PDF objects out of 1000 (max. 8388607)
  10 named destinations out of 1000 (max. 500000)
