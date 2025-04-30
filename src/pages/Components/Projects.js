@@ -84,6 +84,9 @@ class Projects extends Component {
                   <ul>
                      <Link to="/TinyKeeb">Tiny Keyboard</Link>
                   </ul>
+                  <ul>
+                     <Link to="/Blimp">Blimp Capstone</Link>
+                  </ul>
                   
                </div>
             </Fade>

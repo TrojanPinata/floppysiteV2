@@ -29,6 +29,7 @@ import Macropad from "./pages/Macropad";
 import ModelB from "./pages/ModelB";
 import Dispolens from "./pages/Dispolens";
 import TinyKeeb from "./pages/TinyKeeb";
+import Blimp from "./pages/Blimp";
 
 class App extends Component {
    render() {
@@ -62,6 +63,7 @@ class App extends Component {
                   <Route path='/ModelB' element={<ModelB />} />
                   <Route path='/Dispolens' element={<Dispolens />} />
                   <Route path='/TinyKeeb' element={<TinyKeeb />} />
+                  <Route path='/Blimp' element={<Blimp />} />
                   <Route path='*' element={<NoPage />} />
                </Routes>
             </Router>
